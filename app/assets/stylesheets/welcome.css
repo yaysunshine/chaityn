@@ -1,5 +1,6 @@
 html {
-  background-color: #AAAAC6;
+  background: url("c8.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 h1 {
@@ -7,3 +8,46 @@ h1 {
   text-align: center;
   font-family: 'Montserrat Subrayada', sans-serif;
 }
+
+nav {
+  /*border: 2px solid black;*/
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  padding: 1em;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+button {
+  background: black;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-family: 'News Cycle', sans-serif;
+}
+
+button:hover {
+  background: white;
+  color: black;
+  text-decoration: underline;
+  font-family: 'News Cycle', sans-serif;
+}
+
+.meat {
+  margin-right: 30%;
+  padding: 2em;
+  text-align: right;
+  font-family: 'News Cycle', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+
