@@ -1,5 +1,5 @@
 html {
-  background-color: #AAAAC6;
+  /*background-color: #607d8b;*/
 }
 
 h1 {
@@ -7,3 +7,36 @@ h1 {
   text-align: center;
   font-family: 'Montserrat Subrayada', sans-serif;
 }
+
+nav {
+  /*border: 2px solid black;*/
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  padding: 1em;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+button {
+  background: black;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-family: 'News Cycle', sans-serif;
+}
+
+button:hover {
+  background: white;
+  color: black;
+  text-decoration: underline;
+  font-family: 'News Cycle', sans-serif;
+}
+
