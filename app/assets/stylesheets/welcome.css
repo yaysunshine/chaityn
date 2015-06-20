@@ -10,11 +10,13 @@ h1 {
 }
 
 nav {
-  /*border: 2px solid black;*/
+  /*border: 5px solid white;*/
   display: flex;
+  align-items: center;
   justify-content: center;
-  height: 50%;
   padding: 1em;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 li {
@@ -23,6 +25,7 @@ li {
 
 
 button {
+  border: 2px solid white;
   background: black;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
@@ -35,6 +38,7 @@ button {
 }
 
 button:hover {
+  border: 2px solid white;
   background: white;
   color: black;
   text-decoration: underline;
